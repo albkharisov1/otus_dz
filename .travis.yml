@@ -6,6 +6,7 @@ before_script:
 - sudo apt update
 - sudo apt install libspdlog-dev -y
 script:
+- cmake --version
 - cmake .
 - cmake --build .
 - cmake --build . --target test
