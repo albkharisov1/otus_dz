@@ -9,7 +9,7 @@ int main()
 //    auto logger = spdlog::stdout_logger_mt("console");
 //    logger->info("version {} was started", version());
 
-    printf("build %d\r\n", version());
-    printf("Hello, World!\r\n");
+    printf("build %d\n", version());
+    printf("Hello, World!\n");
     return 0;
 }
