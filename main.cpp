@@ -6,8 +6,8 @@
 
 int main()
 {
-//    auto logger = spdlog::stdout_logger_mt("console");
-//    logger->info("version {} was started", version());
+    auto logger = spdlog::stdout_logger_mt("console");
+    logger->info("version {} was started", version());
 
     printf("build %d\r\n", PROJECT_VERSION_PATCH);
     printf("Hello, World!\r\n");
